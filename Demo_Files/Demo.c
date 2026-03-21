@@ -4,7 +4,6 @@ void BinarySearch(int low, int high, int val){
     //low - low endpoint of current array
     //high - high endpoint of current array
     //val - value to look for
-
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
     if (low > high) {
@@ -60,7 +59,15 @@ int main(){
                 LoveLetter();
                 break;
             case 'S':
-                BinarySearch((int)*(str+(i+1))-'0', (int)*(str+(i+2))-'0',(int)*(str+(i+3))-'0');
+
+                int low;
+                int high;
+                int val;
+
+                //convert numbers to decimal, 1d to prevent low grabbing all numbers
+                sscanf((str+i+1),"%1d%1d%1d",&low,&high,&val);
+
+                BinarySearch(low, high,val);
                 i+=3;
                 break;
             case 'O':
