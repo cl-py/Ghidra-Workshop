@@ -1,23 +1,14 @@
-<p align="center">
-  <img width="1000" height="200" alt="Screenshot 2026-03-29 204017" src="https://github.com/user-attachments/assets/b53062fd-c069-49fc-be25-2f82d26c0673" />
-</p>
+<div align="center">
+    <img width=1000 height=200 src="./.public/ghidra_banner.png">
+</div>
 
 ---
 
-This is the code for Capture the Flame's Ghidra Workshop. 
+Welcome to the **Taming the Dragon: Ghidra Workshop** repo! This workshop was made to showcase the NSA's decompiler Ghidra. 
 
-<pre> Demo/ 
-        ├── HelloWorld
-        ├── Demo
-        ├── HelloWorld.c
-        ├── Demo.c
-        └── Makefile
-      Mockware/ 
-        ├── 
-        ├── 
-        ├── 
-        ├──
-        ├──
-        └──
-</pre>
+The event featured three segments:
+- Work through the *Demo* and *HelloWorld* files
+- Have attendees work through the *Mockware* file
+- Decompilation of WANNACRY
 
+The files in this repo were intended for educational purposes of this workshop and were made to showcase Ghidra's capabilities.
