@@ -25,7 +25,6 @@ The workshop material and steps were transcribed below. If interested in Ghidra,
 --- 
 
 <br>
-<br>
 
 ### Installation
 
@@ -45,9 +44,10 @@ Once unzipped, you can run ghidra in the terminal. Open the terminal and make su
 ```
 
 At this point, if you do not have java 21+ installed, you will get the following error:
-```
-ERROR: The 'java' command could not be found in your PATH or with JAVA_HOME. Please refer to the Getting Started document's Troubleshooting section.
-```
+
+**ERROR: The 'java' command could not be found in your PATH or with JAVA_HOME**  
+**Please refer to the Getting Started document's Troubleshooting section.**
+
 You can install java with the following command
 ```
 sudo apt install openjdk-21-jdk
@@ -57,7 +57,9 @@ Now, you can run
 ```
 ./ghidraRun
 ```
+And if you are met with this screen, then you are all set for the demo!
 
+<img src="./.public/install_confirmation.png" width=350 height=200>
 
 ### Demo
 
@@ -65,5 +67,11 @@ Now, you can run
 
 ### Mockware
 
+
+
 ### WANNACRY
+
+For the last portion of our workshop, we covered WANNACRY. To prevent unecessarily distributing a dangerous ransomware, we advised attendees to watch while the host works through the decompilation of the executable. 
+
+**Note**: We did **not** distribute the ransomware used during this workshop. The sample analyzed was a publicly available version of the WANNACRY ransomware that can be found online. This workshop was strictly for educational and reverse engineering purposes using Ghidra. Attendees were advised to only download or analyze malware within an isolated and secure environment. Any interaction with malicious software is done **at your own risk**, and we are not responsible for any damage, data loss, or other issues resulting from its use.
 
